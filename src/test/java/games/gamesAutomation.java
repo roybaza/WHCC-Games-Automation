@@ -190,9 +190,9 @@ public class gamesAutomation {
         WebElement To = driver.findElement(By.name("to"));
         To.sendKeys("roy.baza@williamhill.com");
         WebElement Subject = driver.findElement(By.name("subjectbox"));
-        Subject.sendKeys("game test automation email");
+        Subject.sendKeys("WHCC Game Test Automation Results");
         WebElement Content = driver.findElement(By.xpath("//div[@role='textbox']"));
-        Content.sendKeys("Please see mobile games test result: \n");
+        Content.sendKeys("Please see WHCC mobile games test result: \n");
         System.out.println();
         int count = 0;
         for (String NgmGameError : NgmGameErrors) {
